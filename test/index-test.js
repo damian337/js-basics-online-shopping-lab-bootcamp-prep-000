@@ -193,7 +193,7 @@ describe("placeOrder()", function() {
     );
   });
 
-  it("places an order when a credit card number is provided", function() {
+  it.skip("places an order when a credit card number is provided", function() {
     addToCart("zucchini");
 
     const cartTotal = total();
@@ -206,7 +206,7 @@ describe("placeOrder()", function() {
     );
   });
 
-  it("empties the cart", function() {
+  it.skip("empties the cart", function() {
     addToCart("apples");
 
     placeOrder(12345678);
